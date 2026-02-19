@@ -11,12 +11,12 @@ struct SwiftUIView: View {
     var body: some View {
 
       
-        Image("Cameron Warner")
+        Image("Goku")
             .resizable()
             .aspectRatio(contentMode: .fit)
             .padding()
         
-        Text("Mister Cam")
+        Text("Dragon Ball Legends 2")
             .font(.largeTitle)
     }
 }

@@ -11,13 +11,13 @@ struct MainContentView: View {
     var body: some View {
         
         VStack {
-            Image("Cameron Warner")
+            Image("Goku")
                 .resizable() // Needed to resize Images
                 .frame(width: 200, height: 200)
 //                .aspectRatio(contentMode: .fit) // Fits Image to the Device's screen
                 .clipShape(Circle()) // Clips Image into shape
             
-            Text("Cameron Warner")
+            Text("Dragon Ball Legends 2")
             
             Image(systemName: "lightbulb") // Use SF Symbols
                 .font(.title)
