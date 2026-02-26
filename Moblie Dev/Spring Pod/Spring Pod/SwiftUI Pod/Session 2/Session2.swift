@@ -19,7 +19,7 @@ struct MainContentView: View {
             
             Text("Dragon Ball Legends 2")
             
-            Image(systemName: "lightbulb") // Use SF Symbols
+            Image(systemName: "gamecontroller.fill") // Use SF Symbols
                 .font(.title)
 //                .symbolEffect(.bounce.up.byLayer, options: .repeat(.continuous)) //Symbol Effects
             
