@@ -10,7 +10,7 @@ import SwiftUI
 struct Session3: View {
     var body: some View {
         VStack {
-            Image("MiracleB")
+            Image("Goku")
                 .resizable() // Needed to resize Images
                 .aspectRatio(contentMode: .fit)   //Fits Image to the Device's screen
 //                .scaledToFit() //Scaled to Fit page
@@ -22,7 +22,10 @@ struct Session3: View {
 
 
             
-            Text("Miracle B")
+            Text("Dragon Ball Legends 2")
+                .font(.headline)
+                .foregroundColor(.red)
+                .padding()
             
             Image(systemName: "pencil.tip")
                 .font(.title)
