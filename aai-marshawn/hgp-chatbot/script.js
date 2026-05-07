@@ -1,6 +1,10 @@
 const chat = document.getElementById("chat");
 const form = document.getElementById("form");
 const input = document.getElementById("input");
+// Add this to your <script> tag or .js file
+window.onload = function() {
+    alert("Welcome to my website!");
+};
 
 
 function addMsg(text, who) {
@@ -42,5 +46,6 @@ form.addEventListener("submit", (e) => {
 
   addMsg(text, "user");
   addMsg(getReply(text), "bot");
-  input.value = "";
+  
 });
+
